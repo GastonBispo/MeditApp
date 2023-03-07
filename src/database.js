@@ -12,7 +12,6 @@ const password = process.env.PASSWORD;
 const dbname = process.env.DBNAME;
 
 const URI = `mongodb+srv://NunesBispo:${password}@cluster0.misvoxy.mongodb.net/${dbname}?retryWrites=true&w=majority`;
-//ojo aca por que tu clave esta toda jarkodeada y te van a colar... crear variable de entorno .env
 
 const options = {useNewUrlParser: true, useUnifiedTopology: true}
 

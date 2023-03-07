@@ -22,7 +22,8 @@ app.use(express.json());
 //routes aca defino la ruta del lado navegador con relacion al nombre que tenga la coleccion 
 //por lo que vas a tener que agregar todas las rutas fabricadas que desees mostrar 
 
-app.use('/', require('./routes/quiz.routes'));
+app.use('/', require('./routes/server.routes'));
+// app.use('/api/users'), require('./routes/user.routes') ;
 
 //static files
 app.use(express.static(path.join(__dirname, 'public')));
