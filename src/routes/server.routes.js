@@ -1,7 +1,7 @@
 // Este archivo es responsable de definir las rutas de la aplicación. 
 // En este archivo, se define una ruta para acceder a la colección sessions 
 // y obtener los documentos de esa colección. En este caso, 
-// se utiliza el método find() de Mongoose para obtener todos los documentos de la colección.
+// se utiliza el método find() para obtener todos los documentos de la colección.
 
 
 const express = require('express');
